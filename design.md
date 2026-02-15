@@ -138,11 +138,39 @@ The system is a web-based intelligent learning platform that evaluates user skil
 
 ```json
 {
-  "week": 1,
-  "topics": \[],
-  "tasks": \[],
-  "difficulty": "Beginner"
+  "user_id": "USR001",
+  "skill": "DSA",
+  "score": 75,
+  "max_score": 100,
+  "percentage": 75,
+  "proficiency_level": "Intermediate",
+  "assessment_date": "2026-02-15",
+  "topics": [
+    "Arrays",
+    "Linked Lists",
+    "Trees"
+  ],
+  "topic_scores": {
+    "Arrays": 80,
+    "Linked Lists": 70,
+    "Trees": 65
+  },
+  "strengths": [
+    "Array operations",
+    "Basic problem solving"
+  ],
+  "weaknesses": [
+    "Tree traversal",
+    "Recursion optimization"
+  ],
+  "ai_feedback": "You have good understanding of fundamentals but need more practice in trees and recursion.",
+  "next_recommendations": [
+    "Practice binary tree problems",
+    "Learn recursion patterns",
+    "Solve medium difficulty questions"
+  ]
 }
+
 ```
 
 ---
@@ -323,8 +351,6 @@ Storage → Cloud Storage (Videos \& Resumes)
 ## 11\. Future Enhancements
 
 * Voice-based AI tutor
-* Reinforcement learning personalization
-* Mentor integration
 * Mobile application
 
 ---
@@ -336,5 +362,6 @@ The system integrates AI-based assessment, adaptive learning, and automated vide
 ---
 
 **End of Design Document**
+
 
 
