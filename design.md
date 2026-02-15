@@ -59,7 +59,7 @@ The system is a web-based intelligent learning platform that evaluates user skil
 
 5. **Roadmap Generator**
 
-   * Personalized learning plan creation
+   * Generates a personalized career roadmap based on the user’s current skill level and target goals.
    * Weekly milestone planning
    * Daily task generation
 
@@ -336,4 +336,5 @@ The system integrates AI-based assessment, adaptive learning, and automated vide
 ---
 
 **End of Design Document**
+
 
